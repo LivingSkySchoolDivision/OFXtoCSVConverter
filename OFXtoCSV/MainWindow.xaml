@@ -1,0 +1,15 @@
+﻿<Window x:Class="OFXtoCSV.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OFX to CSV Converter" Height="234" Width="466.9" Icon="LivingSkyLogo.ico" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,6">
+        <Button Name="btnOpenFile" Content="Open OFX file" Margin="10,0,10,15" Click="btnOpenFile_Click" Height="26" VerticalAlignment="Bottom"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,30,0,41" TextWrapping="Wrap" Width="441">
+            This utility will attempt to convert an OFX formatted file to a CSV file.<LineBreak/><LineBreak/>
+            To begin, click the "Open OFX file" button below. <LineBreak/><LineBreak/>
+            If it is possible to convert the file, you will be prompted to save a new CSV file containing the data from the OFX formatted file you specified.<LineBreak/><LineBreak/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="OFX to CSV converter" VerticalAlignment="Top" Height="20" Width="441" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
