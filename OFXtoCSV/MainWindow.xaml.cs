@@ -98,7 +98,7 @@ namespace OFXtoCSV
                                         writer.Flush();
                                         csvFile.Flush();
 
-                                        MessageBox.Show("CSV file saved successfully!", "File saved successfully", MessageBoxButton.OK, MessageBoxImage.Information);
+                                        MessageBox.Show("CSV file saved successfully to: " + saveFileDialog1.FileName, "File saved successfully", MessageBoxButton.OK, MessageBoxImage.Information);
                                     }
                                 }
                             }
